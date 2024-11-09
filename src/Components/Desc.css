@@ -1,0 +1,109 @@
+.desc-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image:
+        linear-gradient(#41414117 1.2px, transparent 1px), /* Horizontal line */
+        linear-gradient(90deg, #41414117 1.2px, transparent 1px); /* Vertical line */
+  background-size: 80px 80px; /* Grid cell size */
+}
+.heading{
+    padding: 10px 60px;
+}
+.heading h2{
+    font-size: 90px;
+    font-weight: 800;
+}
+.img-sec{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-sec img{
+    width: 400px;
+    border-top-right-radius: 30px;
+}
+.description{
+    width: 45%;
+}
+.description p{
+ font-size: 24px;
+ color: #414141;
+}
+.description button{
+    text-decoration: none;
+    background-color: #4B327C;
+    box-shadow: #D9D9D9;
+    border-width: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;
+    font-family: Neue Machina;
+}
+.design-bottom {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    transform-origin: center;
+    transform: translateY(-180vh); /* Start above component */
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+.design-bottom.visible {
+    transform: translateY(0); /* Move to original position */
+    opacity: 1; /* Fade in */
+}
+
+.design-item {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    transform-origin: center;
+    bottom: 0;
+}
+
+/* Positioning and Styling for Each Item */
+.item1 {
+    background-color: #FF960B;
+    transform: rotate(45deg);
+    bottom: 100px;
+    left: 10px;
+}
+
+.item2 {
+    background-color: #FF960B;
+    transform: rotate(-15deg);
+    left: 50%;
+    bottom: 40px;
+}
+
+.item3 {
+    background-color: #4B327C;
+    color: white;
+    transform: rotate(-15deg);
+    left: 350px;
+    bottom: 40px;
+}
+
+.item4 {
+    background-color: #414141;
+    color: #FF960B;
+    right: 10px;
+    bottom: 140px;
+    transform: rotate(25deg);
+}
+
+.item5 {
+    background-color: #000000;
+    color: white;
+    transform: rotate(0deg);
+    bottom: 0;
+    right: 20px;
+}
+

@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./NeueMachina/NeueMachina-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Neue Machina Regular */
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./NeueMachina/NeueMachina-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Neue Machina Ultrabold */
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./NeueMachina/NeueMachina-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  max-width: 1728px;
+  margin: 0 auto;
+  font-family: Neue Machina;
+  background-color: #f5f5f5; /* Light background color */
 }

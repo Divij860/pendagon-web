@@ -1,0 +1,37 @@
+.client-section{
+    background-color: #EEEBEB;
+    width: 100%;
+}
+.client-container{
+    position: relative;
+    padding: 40px 60px;
+}
+.clients{
+    padding: 0 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients h2{
+    font-size: 60px;
+    font-weight: 200;
+}
+.clients h2 span{
+    font-weight: 800;
+}
+.clients p{
+    width: 600px;
+    margin-top: -20px;
+}
+.client-img-sec {
+    margin-top: 30px;
+    width: 600px; /* or any desired width */
+    height: 150px; /* Set height to the visible area */
+    object-fit: cover;
+    object-position: top; /* Positions the image's top */
+    overflow: hidden;
+}
+.client-img-sec img{
+    width: 100%;
+}
