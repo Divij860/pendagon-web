@@ -38,7 +38,7 @@ const Desc = () => {
             </div>
         </div>
         <div className="design-bottom">
-            <p className="design-item item1 hidden box purple">Be Creative</p>
+            <p className="design-item item1 hidden">Be Creative</p>
             <p className="design-item item2 hidden">Social Specialist</p>
             <p className="design-item item3 hidden">Social Strategies</p>
             <p className="design-item item4 hidden">Creative Content</p>

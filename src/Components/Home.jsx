@@ -30,10 +30,10 @@ const Home = () => {
           </div>
         </div>
         <div className="menu">
-          <p>Home</p>
-          <p>About</p>
-          <p>Services</p>
-          <p>Portfolio</p>
+          <a href="/">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#portfolio">Portfolio</a>
         </div>
       </div>
     </div>

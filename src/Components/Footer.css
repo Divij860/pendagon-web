@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: white;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left span {
+    font-size: 18px;
+    margin-right: 5px;
+}
