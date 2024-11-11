@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Components/Testimonial.css'
-import { Divij } from '../Assets'
+import { Akash, Divij } from '../Assets'
 
 const Testimonial = () => {
   return (
@@ -13,7 +13,7 @@ const Testimonial = () => {
             <h2>Creatify transformed our brand image and helped us reach new heights.</h2>
         </div>
         <div class="profile-container">
-            <img src={Divij} alt="Profile Image" class="profile-img" />
+            <img src={Akash} alt="Profile Image" class="profile-img" />
             <div class="profile-info">
                 <p class="name">Alexis Rivera <br /> CEO, TechVentures</p>
             </div>
