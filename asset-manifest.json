@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/pendagon-web/static/css/main.0b6e330a.css",
-    "main.js": "/pendagon-web/static/js/main.272c1c58.js",
+    "main.js": "/pendagon-web/static/js/main.16e66b13.js",
     "static/js/453.3c179c8b.chunk.js": "/pendagon-web/static/js/453.3c179c8b.chunk.js",
     "static/media/desc-img.png": "/pendagon-web/static/media/desc-img.13836f39e6d76758620e.png",
     "static/media/about-img.png": "/pendagon-web/static/media/about-img.c2f5574ba9e25be0f072.png",
     "static/media/service-bg.png": "/pendagon-web/static/media/service-bg.7deda99a0592be30a50e.png",
+    "static/media/aksh.jpg": "/pendagon-web/static/media/aksh.cfa34db551101b681cbc.jpg",
     "static/media/div.jpg": "/pendagon-web/static/media/div.c89b44d5576ce6220c7b.jpg",
     "static/media/hero-bg.png": "/pendagon-web/static/media/hero-bg.97c396c81c95cbdc49fe.png",
     "static/media/Logo-Pen-10.png": "/pendagon-web/static/media/Logo-Pen-10.943c20aa4ef91f0cbac9.png",
@@ -15,11 +16,11 @@
     "static/media/NeueMachina-Light.otf": "/pendagon-web/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
     "index.html": "/pendagon-web/index.html",
     "main.0b6e330a.css.map": "/pendagon-web/static/css/main.0b6e330a.css.map",
-    "main.272c1c58.js.map": "/pendagon-web/static/js/main.272c1c58.js.map",
+    "main.16e66b13.js.map": "/pendagon-web/static/js/main.16e66b13.js.map",
     "453.3c179c8b.chunk.js.map": "/pendagon-web/static/js/453.3c179c8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b6e330a.css",
-    "static/js/main.272c1c58.js"
+    "static/js/main.16e66b13.js"
   ]
 }
