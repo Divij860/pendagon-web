@@ -5,16 +5,15 @@
 .layer{
     width: 100%;
     height: 600px;
-    background: linear-gradient(90deg,#4b327c,#4B327C);
+    background: linear-gradient(90deg,#23183b,#211638);
     z-index: 1;
 }
 .service-sec img{
     width: 100%;
     height: 600px;
-    object-fit: cover;
     position: absolute;
     top: 0;
-    opacity: 5%;
+    opacity: 50%;
 }
 .service-cont{
     width: 100%;

@@ -8,10 +8,16 @@
 
   }
   
-  .bgimg img {
+  .bgimg{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bgimg img{
+    width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
   }

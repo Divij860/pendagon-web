@@ -15,6 +15,12 @@
     font-size: 90px;
     font-weight: 800;
 }
+.heading h2 span {
+    background: linear-gradient(to right, #4B327C, #803EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Optional for better visibility */
+  }
 .img-sec{
     padding: 20px 70px;
     display: flex;

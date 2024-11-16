@@ -92,6 +92,10 @@
   }
   .vision-cont h2 span{
     font-weight: 800;
+      background: linear-gradient(to right, #4B327C, #803EFF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold; /* Optional for better visibility */
   }
   .vision-cont p{
     font-size: 20px;

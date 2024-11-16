@@ -28,7 +28,7 @@ const Desc = () => {
   return (
     <div className='desc-section'>
         <div className='heading'>
-            <h2>We Build <br />Brands People Love</h2>
+            <h2>We Build <br /><span>Brands</span> People Love</h2>
         </div>
         <div className="img-sec">
             <img src={Descimg} alt="image1" />
